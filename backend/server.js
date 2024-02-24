@@ -13,7 +13,7 @@ app.get("/",(req,res) => {
 })
 
 
-mongoose.connect('mongodb+srv://vipulch0301767:Vipul@2001@cluster0.w6ru9pv.mongodb.net/test?retryWrites=true&w=majority&appName=Cluster0', {
+mongoose.connect('mongodb+srv://vipulch0301767:Vipul%402001@cluster0.w6ru9pv.mongodb.net/test?retryWrites=true&w=majority&appName=Cluster0', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
